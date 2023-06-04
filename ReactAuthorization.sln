@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33103.184
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReactAuthorization.Web", "ReactAuthorization.Web\ReactAuthorization.Web.csproj", "{77D4C142-DB4B-42AA-8689-85B764351CBA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReactAuthorization.Data", "ReactAuthorization.Data\ReactAuthorization.Data.csproj", "{3991F433-FCDB-441F-85EA-3240F4DF945B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{77D4C142-DB4B-42AA-8689-85B764351CBA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77D4C142-DB4B-42AA-8689-85B764351CBA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77D4C142-DB4B-42AA-8689-85B764351CBA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77D4C142-DB4B-42AA-8689-85B764351CBA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3991F433-FCDB-441F-85EA-3240F4DF945B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3991F433-FCDB-441F-85EA-3240F4DF945B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3991F433-FCDB-441F-85EA-3240F4DF945B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3991F433-FCDB-441F-85EA-3240F4DF945B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {022F6403-F505-4694-93FA-0EF601CB5C89}
+	EndGlobalSection
+EndGlobal
