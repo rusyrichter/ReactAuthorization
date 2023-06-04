@@ -18,7 +18,6 @@ namespace ReactAuthorization.Data
 
             public DbSet<BookMark> BookMarks { get; set; }
             public DbSet<User> Users { get; set; }
-            public DbSet<UrlEntry> UrlEntries { get; set; }
     }
 }
 
