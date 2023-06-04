@@ -51,7 +51,7 @@ namespace ReactAuthorization.Data
             {
                 var top5URLsWithUserCount = context.BookMarks
                     .GroupBy(b => b.URL)
-                    .OrderByDescending(g => g.Max(b => b.UserId))
+                    .OrderByDescending(g => g.Count()) 
                     .Take(5)
                     .Select(g => new { URL = g.Key, UserCount = g.Count() })
                     .ToList();
@@ -59,6 +59,10 @@ namespace ReactAuthorization.Data
                 return top5URLsWithUserCount.Cast<object>().ToList();
             }
         }
+  
+
+
+
 
 
 
