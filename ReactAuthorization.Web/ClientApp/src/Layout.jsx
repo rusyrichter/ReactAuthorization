@@ -20,7 +20,7 @@ const Layout = ({ children }) => {
                                 {!user && <li className="nav-item"><Link to="/" className='nav-link text-light'>Home</Link></li>}
                                 {!user && <li className="nav-item"><Link to="/signup" className='nav-link text-light'>Sign up</Link></li>}
                                 {!user && <li className="nav-item"><Link to="/login" className='nav-link text-light'>Log in</Link></li>}
-                                {!user && <li className="nav-item"><Link to="/" className='nav-link text-light'>React Authorization</Link></li>}
+                                {!!user && <li className="nav-item"><Link to="/" className='nav-link text-light'>React Authorization</Link></li>}
                                 {!!user && <li className="nav-item"><Link to="/mybookmarks" className='nav-link text-light'>MyBookmarks</Link></li>}
                                 {!!user && <li className="nav-item"><Link to="/addbookmark" className='nav-link text-light'>Add Bookmark</Link></li>}
                                 {!!user && <li className="nav-item"><Link to="/logout" className='nav-link text-light'>Log out</Link></li>}
