@@ -40,7 +40,7 @@ const MyBookmarks = () => {
     }
     const onCancelClick = (b) => {
         setEditingPeopleIds(editingPeopleIds.filter(i => i !== b.id));
-        setTitle({ ...title, [id]: '' });
+        setTitle({ ...title});
     }
     return (
         <div className="container" style={{ marginTop: "80px" }}>
@@ -92,4 +92,4 @@ const MyBookmarks = () => {
 export default MyBookmarks;
 
 
-                    
+                  
